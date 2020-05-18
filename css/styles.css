@@ -1,0 +1,1703 @@
+r/**********************************CSS****************************************/
+
+/*****************************GENERALES**************************************/
+@font-face {
+font-family: Lato;
+src: url('../fonts/Lato.ttf');
+}
+
+@font-face {
+font-family: Museo;
+src: url('../fonts/Museo.otf');
+}
+
+@font-face {
+font-family: Montserrat;
+src: url('../fonts/Montserrat.otf');
+}
+
+@font-face {
+font-family: Playlist;
+src: url('../fonts/Playlist Script.otf');
+}
+
+body
+{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	background-color: #fafafa ;
+	font-family: 'Montserrat', sans-serif;
+
+}
+h1,h2,h3,h4
+{
+	font-family: 'Lato', sans-serif;
+}
+.tituloslato
+{
+	font-family: 'Lato', sans-serif;
+}
+.parrafoemojis
+{
+	font-family: 'Museo', sans-serif;
+	text-align: left;
+}
+.parrafoemojisleft
+{
+	font-family: 'Museo', sans-serif;
+	text-align: left;
+}
+.titulomuseo
+{
+	font-family: 'Museo', sans-serif;
+}
+.titlemonserrat
+{
+	font-family: 'Montserrat', sans-serif;
+}
+main
+{
+	flex:1 0 auto;
+}
+.mysalmon
+{
+	background-color: #FF9589 !important;
+}
+.mysalmontext
+{
+	color: #FF9589 !important;
+}
+.myblue
+{
+	background-color: #005587 !important;
+}
+.myaqua
+{
+	background-color: #41EDDF !important;
+}
+.myaquatext
+{
+	color: #41EDDF !important;
+}
+.mypink
+{
+	background-color: #FF2F79 !important;
+}
+.purple
+{
+	background-color: #7F0B85 !important;
+}
+.purple-text
+{
+	color: #7F0B85 !important;
+}
+.mynav
+{
+	height: 70px !important;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0), 0 3px 1px -2px rgba(0, 0, 0, 0) !important;
+	transition: all 1s ease;
+}
+.mynav2
+{
+	height: 70px !important;
+	transition: all 1s ease;
+}
+.mynav li a
+{
+	margin-right: 45px;
+	font-size: 130%;
+	color: #ffffff;
+	transition: all .3s;
+	position: relative;
+	padding: 0 !important;
+}
+.mynav li a:before
+{
+	content: "";
+	position: absolute;
+	height: 3px;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	background-color: #41EDDF;
+	transition: all .3s;
+}
+
+.mynav2 li a
+{
+	margin-right: 15px;
+	font-size: 130%;
+	color: #ffffff;
+	transition: all .3s;
+	position: relative;
+}
+.mynav .brand-logo
+{
+	margin-right: 10px;
+	color: #ffffff;
+}
+
+.mynav2 li a:before
+{
+	content: "";
+	position: absolute;
+	height: 3px;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	background-color: #41EDDF;
+	transition: all .3s;
+}
+.linkfooter
+{
+	font-size: 120%;
+	cursor: pointer;
+	font-weight: 500px;
+	transition: all 0.5s;
+}
+.brandfooter
+{
+	margin-top: 60px;
+	font-size: 200%;
+}
+.logofooter
+{
+	width: 70%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 20px;
+}
+.logoheader
+{
+	width: 300px;
+	height: 130px;
+	position: relative;
+	top: -2.5vh;
+	transition: all .5s;
+}
+.logoheadermin
+{
+	width: 250px;
+	height: 100px;
+	position: relative;
+	top: -1.5vh;
+	transition: all .5s;
+}
+.mybtn
+{
+	border-radius: 40px;
+	width: 220px;
+	height: 50px;
+	padding: 5px;
+	transition: all 0.3s;
+
+}
+.mybtn:focus
+{
+	background-color: transparent !important;
+}
+.mynav a i
+{
+	color: #ffffff;
+}
+.iconsocial
+{
+	height: 50px;
+	width: 50px;
+	margin-left: 5px;
+	transition: all .3s;
+}
+.iconsocialside
+{
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+}
+.rowsm
+{
+	margin: 0 !important;
+}
+.titlemain
+{
+	font-size: 270%;
+}
+.brandside
+{
+	font-size: 180%;
+	font-weight: bold;
+	color: #41EDDF;
+}
+.myside
+{
+	background-color: #7F0B85;
+	color: #ffffff;
+}
+.myside li a
+{
+	color: #ffffff;
+	font-size: 130%;
+}
+.myside div a
+{
+	padding: 0px 10px !important;
+}
+.pnlsocialsidenav
+{
+	margin-top: 5vh;
+}
+.resaltartexto
+{
+	font-family: 'Museo', sans-serif;
+	color: #7F0B85;
+}
+.textosombreado
+{
+	font-family: 'Museo', sans-serif;
+	color: #ffffff;
+	background-color: #7F0B85;
+	padding: 5px;
+	text-align: center !important;
+}
+.resaltarmensaje
+{
+	font-size: 150% !important;
+	font-weight: bold;
+	color: #7F0B85;
+	text-align: center !important;
+}
+.imgiconnav
+{
+	margin-top: 13px;
+}
+.imgiconnav a
+{
+	margin-right: 5px !important;
+}
+.iosbackground
+{
+	background-attachment: scroll !important;
+}
+/*******************************INDEX*****************************************/
+
+.encabezado
+{
+	background-image: url("../img/inicio/inicio.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 800px;
+	position: relative;
+}
+.gradienteencabezado
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.1);
+}
+.pnlparrafoencabezado
+{
+	position: relative;
+	padding: 10px;
+}
+.parrafoencabezado
+{
+	color: #ffffff;
+	font-size: 150%;
+	text-align: justify;
+	padding: 15px;
+	margin: 0;
+}
+.pnlcopyheader
+{
+	margin-top:15vh;
+	border-radius: 20px;
+	background-color: rgba(80, 201, 195, 0.8);
+}
+.parrafoencabezadomobile
+{
+	color: #7F0B85;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+}
+.btnencabezado
+{
+	background-color: #7F0B85 !important;
+	border: 2px solid #7F0B85;
+	color: #ffffff;
+	font-size: 130%;
+	font-weight: 500;
+	transition: all .5s;
+	margin-top: 10px;
+}
+.btnencabezadomobile
+{
+	font-size: 130%;
+	font-weight: 500px;
+	background-color: transparent !important;
+	border: 2px solid #34BDB2;
+	color: #34BDB2;
+}
+
+.title
+{
+	font-weight: bold;
+	position: relative;
+}
+.titlepaquete
+{
+	letter-spacing: 2px !important;
+}
+.titlenav
+{
+	color: #41EDDF !important;
+}
+/****************************SERVICIOS*********************************/
+.servicios
+{
+	background: #ffffff;
+	padding: 15px;
+
+}
+.iconosserv
+{
+	height: 200px;
+	width: 200px;
+}
+.titleservicios
+{
+	font-size: 250%;
+	padding: 10px;
+}
+.pnlplan
+{
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,.19);
+	position: relative;
+	top: -10vh;
+}
+/****************************TESTIMONIALES****************************/
+.testimoniales
+{
+	background-image: url("../img/testimoniales/comida.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 900px;
+	position: relative;
+}
+.containertestimoniales
+{
+	position: relative;
+	top: 5vh;
+	background-color: rgba(255,149,137,0.9);
+	border-radius: 15px;
+	padding: 10px;
+}
+.pnlmyslide
+{
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	width: 85%;
+}
+.myslider
+{
+	display: flex;
+	width: 700%;
+}
+.myslides
+{
+	width: 100%;
+}
+.foto
+{
+	height: 150px;
+	width: 150px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+	border-radius: 50%;
+}
+.retrato1
+{
+	background-image: url("../img/testimoniales/ALONDRA.jpeg");
+}
+.retrato2
+{
+	background-image: url("../img/testimoniales/VICTOR.jpg");
+	background-position: center;
+
+}
+.retrato3
+{
+	background-image: url("../img/testimoniales/MARIELA.jpeg");
+}
+.retrato4
+{
+	background-image: url("../img/testimoniales/ADRIANAM.jpeg");
+	background-position: 30% 50%;
+
+}
+.retrato5
+{
+	background-image: url("../img/testimoniales/CRISTINA.jpeg");
+}
+.retrato6
+{
+	background-image: url("../img/testimoniales/DIEGO.jpeg");
+}
+.retrato7
+{
+	background-image: url("../img/testimoniales/PATRICIA.jpg");
+	background-position: center;
+}
+.parrafotest
+{
+	font-size: 130%;
+	text-align: justify;
+	color: white;
+}
+.nombretest
+{
+	font-size: 190%;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: white
+}
+.derecha
+{
+	position: relative;
+	height: 50px;
+	width: 50px;
+	background-image: url("../img/testimoniales/left-arrow.png");
+	background-size: contain;
+	cursor: pointer;
+	margin: auto;
+}
+.izquierda
+{
+	position: relative;
+	height: 50px;
+	width: 50px;
+	background-image: url("../img/testimoniales/right-arrow.png");
+	background-size: contain;
+	cursor: pointer;
+	margin: auto;
+}
+.myarrow
+{
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+}
+.left
+{
+	left: 5%;
+}
+.right
+{
+	right: 5%;
+}
+/****************************RECETARIO********************************/
+.bannerrecetas
+{
+	height: 100px;
+	padding: 15px;
+	background: #FF2F79;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #FF2F79, #7F0B85);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #FF2F79, #7F0B85); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.containerrecetario
+{
+	margin-top: 5vh;
+}
+.recetas
+{
+	/*background: #f3e5f5;*/
+	background: #ffffff;
+}
+.btnrecetario
+{
+	background-color: transparent !important;
+	border: 2px solid #FF2F79;
+	color: #FF2F79 !important;
+	font-size: 130%;
+	transition: all .5s;
+	margin-bottom: 5vh;
+}
+.imgreceta
+{
+	height: 250px;
+	width: 100%;
+	border-radius: 10px;
+}
+.textocard
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 0px 20px !important;
+}
+.receta
+{
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 20px;
+	padding: 0 !important;
+
+}
+.receta::before
+{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	border-radius: 10px;
+	transition: all .3s;
+	border-radius: 5px;
+}
+
+.titlereceta
+{
+	margin: 10px;
+	padding: 5px;
+	transition: .3s;
+}
+.titlereceta
+{
+	left: 100%;
+	position: relative;
+}
+.listaingredientes li
+{
+	list-style-type:circle;
+}
+.introreceta
+{
+	text-align: justify;
+	padding: 5px;
+	font-weight: 700;
+}
+.myicon
+{
+	position: relative;
+	top: 5px !important;
+}
+.backreceta
+{
+	background-image: url("../img/recetas/back.jpg");
+	background-size: cover;
+}
+#flipbook .mypage
+{
+	background-color: #ffffff;
+	background-size: 100% 100%;
+}
+.page1
+{
+	background-image: url("../img/recetas/anti_cansancio.jpg");
+}
+.page2
+{
+	background-image: url("../img/recetas/anti_colesterol.jpg");
+}
+.page3
+{
+	background-image: url("../img/recetas/anti-diabetes.jpg");
+}
+.page4
+{
+	background-image: url("../img/recetas/atun_amaranto.jpg");
+}
+.page5
+{
+	background-image: url("../img/recetas/ceviche_zanahoria.jpg");
+}
+.page6
+{
+	background-image: url("../img/recetas/hamburguesas_quinoa.jpg");
+}
+.page7
+{
+	background-image: url("../img/recetas/pico_gallo.jpg");
+}
+.page8
+{
+	background-image: url("../img/recetas/pie_chocolate.jpg");
+}
+.page9
+{
+	background-image: url("../img/recetas/relleno_quinoa.jpg");
+}
+.page10
+{
+	background-image: url("../img/recetas/setas_pibil.jpg");
+}
+.page1m
+{
+	background-image: url("../img/recetas/vertical/anti_cansancio.jpg");
+}
+.page2m
+{
+	background-image: url("../img/recetas/vertical/anti_colesterol.jpg");
+}
+.page3m
+{
+	background-image: url("../img/recetas/vertical/anti-diabetes.jpg");
+}
+.page4m
+{
+	background-image: url("../img/recetas/vertical/atun_amaranto.jpg");
+}
+.page5m
+{
+	background-image: url("../img/recetas/vertical/ceviche_zanahoria.jpg");
+}
+.page6m
+{
+	background-image: url("../img/recetas/vertical/hamburguesas_quinoa.jpg");
+}
+.page7m
+{
+	background-image: url("../img/recetas/vertical/pico_gallo.jpg");
+}
+.page8m
+{
+	background-image: url("../img/recetas/vertical/pie_chocolate.jpg");
+}
+.page9m
+{
+	background-image: url("../img/recetas/vertical/relleno_quinoa.jpg");
+}
+.page10m
+{
+	background-image: url("../img/recetas/vertical/setas_pibil.jpg");
+}
+.flipbook-viewport{
+	overflow:hidden;
+	width:100%;
+	height:100%;
+}
+
+.flipbook-viewport .flipbook{
+	width:70vw;
+	height:55vh;
+}
+
+.flipbook-viewport .page{
+	width:70vw;
+	height:55vh;
+	background-color:white;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+/***Mobile**/
+.flipbook-viewport-mobil .flipbookmobil{
+	width:70vw;
+	height:90vh;
+	left: 10vw;
+}
+
+.flipbook-viewport-mobil .page{
+	width:70vw;
+	height:90vh;
+	background-color:white;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+
+/****************************AGENDA***********************************/
+
+.agenda
+{
+	background-image: url("../img/agenda/frutas.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 300px;
+	position: relative;
+}
+.gradiente
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #000000;
+	opacity: 0.5;
+}
+.pnlagenda
+{
+	position: relative;
+	padding: 15px;
+}
+.btnagenda
+{
+	background-color: transparent !important;
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	font-size: 140%;
+	height: 50px;
+	padding: 5px;
+	font-weight: bold;
+	transition: all .5s;
+}
+
+.pnlrecentas
+{
+	padding: 15px;
+}
+/*******************************SERVICIOS******************************/
+.serviciopnl
+{
+	margin-top: 7vh;
+}
+.pnlservicio
+{
+	background-color: rgba(80, 201, 195, 0.7);
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 15px;
+}
+.pnlservicioways
+{
+	background-color: rgba(80, 201, 195, 0.7);
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.servicio
+{
+	width: 98%;
+	margin: auto;
+	border-radius: 20px;
+	background: #ffffff;
+	border: solid 2px #50C9C3;
+	padding: 10px;
+	height: 400px;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,.19);
+}
+.contendioservicio
+{
+	position: relative;
+}
+.parrafocontenido
+{
+	font-size: 120%;
+	padding: 10px;
+	text-align: justify;
+}
+.imgservicios
+{
+	height: 130px;
+	width: 130px;
+	position: relative;
+}
+.btnservicios
+{
+	background-color: transparent;
+	width: 250px;
+	color: #7F0B85;
+	border: 2px solid #7F0B85;
+	font-size: 90%;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.btnserviciosllamativo
+{
+	background-color: #7F0B85;
+	width: 250px;
+	color: #ffffff;
+	border: 2px solid #7F0B85;
+	font-size: 90%;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.btnmini
+{
+	margin-bottom: 10px !important;
+	height: 40px;
+	padding: 0 !important;
+	width: 200px !important;
+}
+.pnlbannerservice
+{
+	height: 300px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.banneralineate
+{
+	background-image: url("../img/servicios/alineate.jpg");
+}
+.nutriesencia
+{
+	background-image: url("../img/servicios/nutriescencia.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.funcional
+{
+	background-image: url("../img/servicios/funcional.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.veggie
+{
+	background-image: url("../img/servicios/veggie.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.alineate
+{
+	background-image: url("../img/servicios/alineate.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.duo
+{
+	background-image: url("../img/servicios/duo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.duo
+{
+	background-image: url("../img/servicios/duo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.fast
+{
+	background-image: url("../img/servicios/simple_fast.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.single
+{
+	background-image: url("../img/servicios/single.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.txtservice
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #000000 !important;
+	font-weight: 600;
+}
+.pnlservicioways .txtservice
+{
+	color: #ffffff !important;
+}
+.txtservicesind
+{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	margin-bottom: 40px; 
+}
+/********************************SERVICIOS INDIVIDUALES****************/
+.pnlencabezado
+{
+	background: #FF2F79;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #FF2F79, #7F0B85);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #FF2F79, #7F0B85);
+	margin: 0 !important;
+}
+.pnlbienvenida
+{
+	margin-top: 20px;
+}
+.parbienvenida
+{
+	text-align: center;
+	font-size: 115%;
+	color: #ffffff;
+	font-weight: 600;
+}
+.txtbold
+{
+	font-weight: bold;
+}
+.justify
+{
+	text-align: justify;
+}
+.pnldetalle
+{
+	padding: 10px;
+}
+.vinetas
+{
+	font-size: 120%;
+}
+.pnlvinetas
+{
+	padding: 10px;
+}
+.pnlespcificaciones
+{
+	background-color: #ffffff;
+	border-radius: 20px;
+	margin-bottom: 20px !important;
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+	min-height: 150px;
+	border: solid 2px #7F0B85;
+}
+.tick
+{
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+	position: relative;
+	top: 3px;
+}
+.pnlservice
+{
+	margin-top: 20px  !important;
+	margin-bottom: 20px !important;
+}
+/********************************ACERCA DE MI**************************/
+.banneraboutme
+{
+	background: #B24592;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.pnlquiensoy
+{
+	padding: 20px;
+	box-sizing: border-box;
+}
+.retrato
+{
+	max-height: 250px;
+	margin-top: 5vh;
+	border-radius: 150px;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,.19);
+}
+.parrafoacercademi
+{
+	margin-top:10vh;
+	font-size: 140%;
+	text-align: justify;
+	color: #fff;
+}
+.nombre
+{
+	color: #fff;
+}
+.contenedorparrafo
+{
+	padding: 15px;
+}
+.parrafoquiensoy
+{
+	font-size: 130%;
+	text-align: justify;
+}
+.imgacerdade
+{
+	height: 300px;
+	width: 300px;
+}
+.imgacerca
+{
+	width: 100% !important;
+	height: 500px;
+	margin:auto;
+	border-radius: 20px;
+}
+.pnltxtanimado
+{
+	height: 55px;
+	overflow: hidden;
+}
+.ultxtanimado
+{
+	animation: cambiartxt 12s infinite;
+}
+.logoinsti
+{
+	width: 60%;
+	height: auto;
+	margin-bottom: 40px;
+}
+@keyframes cambiartxt
+{
+	0%{ margin-top: 0; }
+	12%{ margin-top: 0 }
+	15%{margin-top: -55px;}
+	27%{margin-top: -55px;}
+	30%{margin-top: -110px;}
+	42%{margin-top: -110px;}
+	45%{margin-top: -165px;}
+	57%{margin-top: -165px;}
+	60%{margin-top: -110px;}
+	72%{margin-top: -110px;}
+	75%{margin-top: -55px;}
+	87%{margin-top: -55px;}
+	90%{ margin-top: 0 }
+	100%{margin-top: 0;}
+}
+
+/**********************************Recetario***************************/
+.titlerecetario
+{
+	font-weight: bold;
+}
+.modalreceta
+{
+	width: 80%;
+	padding: 0 !important;
+}
+.modalreceta .modal-content
+{
+	padding: 0 !important;
+}
+.imgrecetamodal
+{
+	background-image: url("../img/recetas/receta4.jpg");
+	height: 430px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.imgrecetamodal1
+{
+	background-image: url("../img/recetas/receta1.jpg");
+}
+.imgrecetamodal2
+{
+	background-image: url("../img/recetas/receta2.jpeg");
+}
+.imgrecetamodal3
+{
+	background-image: url("../img/recetas/receta3.jpg");
+}
+.imgrecetamodal4
+{
+	background-image: url("../img/recetas/receta4.jpg");
+}
+.imgrecetamodal5
+{
+	background-image: url("../img/recetas/receta5.jpeg");
+}
+.pnlpreparación
+{
+	max-height: 300px;
+	overflow-y: scroll;
+}
+.pnlpreparación::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #f5f5f5;
+}
+.pnlpreparación::-webkit-scrollbar-thumb
+{
+	background-color: rgb(73, 0, 49);
+}
+.mybuildpoint
+{
+	margin-right: 20px;
+	color: #7F0B85;
+}
+.
+/*********************************CONTACTO*****************************/
+.contacto
+{
+	/*background: #fce4ec;*/
+	background: #ffffff;
+}
+.titlesection
+{
+	top: 5vh;
+}
+.pnldireccion
+{
+	margin-bottom: 20px;
+}
+.bannercontacto
+{
+	height: 100px;
+}
+.pdir
+{
+	font-size: 120%;
+	text-align: justify;
+}
+#map
+{
+	width: 100%;
+	height: 400px;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,.19);
+}
+#mapcontacto
+{
+	width: 100%;
+	height: 300px;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,.19);
+}
+.pnlcontacto
+{
+	background-color: #FF9589;
+	background: -webkit-linear-gradient(to right, #FF9589, #ff9966);
+	background: linear-gradient(to right, #FF9589, #ff9966);
+	border-radius: 20px;
+	padding: 10px !important;
+}
+.pdleft
+{
+	padding-left: 20px;
+}
+.btnformu
+{
+	font-size: 150%;
+	padding: 10px;
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	color: #ffffff;
+}
+
+.logocontacto
+{
+	height: 80px;
+	width: 80px,
+}
+.bgheadercon
+{
+	height: 300px;
+	background-image: url("../img/contacto/nutricion.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.degradadocontacto
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+.pnlheadertextocont
+{
+	position: relative;
+	padding-top: 10vh;
+}
+.titulocontacto
+{
+	margin: 0 !important;
+	color: #ffffff;
+}
+/**********************************Modales*******************************************/
+#advise
+{
+	width: 80%;
+	border-radius: 10px;
+}
+#poppup
+{
+	width: 80%;
+	border-radius: 20px;
+	padding: 0;
+}
+#poppup .modal-content
+{
+	padding: 0;
+}
+.flechita
+{
+	margin-top: 30px;
+	width: 80%;
+	height: auto;
+}
+.pnlimgpoppup
+{
+	background-image: url("../img/fotos/yo.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 350px;
+	background-repeat: no-repeat;
+}
+.pnltextopoppup
+{
+	padding: 10px !important;
+	background-color: #fff;
+}
+.titlepoppup
+{
+	font-family: 'Montserrat';
+	text-align: center;
+	font-weight: 600;
+	color: #7F0B85;
+}
+.mrgtittle
+{
+	margin-top: 40px;
+}
+.logopopppup
+{
+	width: 200px;
+	height: 150px;
+}
+.poppupspan
+{
+	font-size: 150%;
+	font-weight: 600;
+	color: #7F0B85;
+	font-family: 'Montserrat';
+}
+.btnpoppup
+{
+	background-color: #005587;
+    width: 200px;
+    color: #ffffff;
+    border: 2px solid #005587;
+    font-size: 80%;
+    font-weight: bold;
+    margin-bottom: 10px;
+    height: 40px;
+    padding: 0 5px;
+}
+.closemodal
+{
+	font-size: 150%;
+	font-weight: bold;
+	color: #7F0B85;
+	transition: all 0.5s;
+}
+.parrafoaviso
+{
+	font-size: 140%;
+	text-align: justify;
+}
+.clausula
+{
+	color: #7F0B85;
+	font-weight: bold;
+
+}
+#advise::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #f5f5f5;
+}
+#advise::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: rgb(73, 0, 49);
+}
+/*******************************Media Queries*****************************************/
+@media (min-width: 992px)
+{
+	.iconsocial:hover
+	{
+		transform: rotate(360deg);
+	}
+	.btnencabezado:hover
+	{
+		border-color: #7F0B85;
+		color: #7F0B85;
+		background-color: transparent !important;
+	}
+	.linkfooter:hover
+	{
+		color: #41EDDF !important;
+	}
+	.btnrecetario:hover
+	{
+		border-color: #7F0B85;
+		color: #7F0B85 !important;
+	}
+	.btnagenda:hover
+	{
+		border-color: #FF9589;
+		color: #FF9589  !important;
+	}
+	.btnservicios:hover
+	{
+		background-color: transparent;
+		color: #FF2F79 !important;
+		border-color: #FF2F79;
+	}
+	.btnserviciosllamativo:hover
+	{
+		background-color: #ffffff;
+		color: #7F0B85 !important;
+		border-color: #7F0B85;
+	}
+	.btnpoppup:hover
+	{
+		background-color: #ffffff;
+		color: #005587 !important;
+		border-color: #005587;
+	}
+	.receta:hover .titlereceta
+	{
+		left: 0;
+		animation-delay: .3s;
+		transition: all .3s;
+	}
+	.receta:hover:before
+	{
+		background-color: rgba(73, 0, 49, 0.4);
+		z-index: 2;
+		transition: all .3s;
+	}
+	.btnformu:hover
+	{
+		background-color: transparent !important;
+		border-color: #005587 ;
+		color: #005587 ;
+	}
+	.closemodal:hover
+	{
+		color: #41EDDF !important;
+	}
+	.mynav li a:hover:before
+	{
+		width: 100%;
+		left: 0;
+	}
+	.mynav li  a:hover
+	{
+		background-color: transparent !important;
+		color: #41EDDF !important;
+	}
+	.mynav2 li  a:hover
+	{
+		background-color: transparent !important;
+		color: #41EDDF !important;
+	}
+	.mynav2 li a:hover:before
+	{
+		width: 100%;
+		left: 0;
+	}
+}
+@media (max-width: 1450px)
+{
+	.containertestimoniales
+	{
+		top: 2vh;
+	}
+	.parrafoquiensoy
+	{
+		font-size: 120%;
+	}
+	.logoheadermin
+	{
+		top: -2.5vh;
+	}
+}
+@media (max-width: 1300px)
+{
+	.parrafoquiensoy
+	{
+		font-size: 110%;
+	}
+}
+@media (max-width: 1150px)
+{
+	.pnlmyslide
+	{
+		width: 95%;
+	}
+	.btnpoppup
+	{
+		width: 180px;
+	}
+	.titlepoppup
+	{
+		font-size: 200%;
+	}
+	.titleasesoria
+	{
+		font-size: 120% !important;
+	}
+}
+@media (max-width: 1050px)
+{
+	.agenda, .testimoniales
+	{
+		background-attachment: scroll !important;
+	}
+}
+@media (max-width: 992px)
+{
+	.pnlmyslide
+	{
+		width: 70%;
+	}
+	.parrafoacercademi
+	{
+		font-size: 125%;
+		margin-top: 5vh;
+	}
+	.maincontacto
+	{
+		height: 700px;
+	}
+	.midatos
+	{
+		font-size: 120% !important;
+	}
+	#mapcontacto
+	{
+		margin-top: 20px !important;
+	}
+	.pdleft
+	{
+		padding-left:0 !important;
+	}
+	.retrato
+	{
+		max-height: 200px;
+	}
+	.receta:before
+	{
+		background-color: rgba(73, 0, 49, 0.4);
+		z-index: 2;
+	}
+	.receta .titlereceta
+	{
+		left: 0;
+	}
+	.parrafotest
+	{
+		font-size: 110%;
+	}
+	.mrgtittle
+	{
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	.titleasesoria
+	{
+		font-size: 160% !important;
+	}
+	#poppup
+	{
+		max-height: 90% !important;
+	}
+	.logofooter
+	{
+		width: 30%;
+	}
+	.logoheadermin
+	{
+		top: -2vh;
+	}
+	.pnlcopyheader
+	{
+		margin-top: 15vh;
+	}
+	.encabezado
+	{
+		height: 600px;
+	}
+	.left
+	{
+		left: 1%;
+	}
+	.right
+	{
+		right: 1%;
+	}
+}
+@media (max-width: 700px)
+{
+	.parrafocontenido
+	{
+		font-size: 100%;
+	}
+	.servicio
+	{
+		height: 400px;
+	}
+	.imgacerca
+	{
+		height: 400px;
+	}
+	.pnlespcificaciones
+	{
+		min-height: 180px;
+	}
+}
+@media (max-width: 600px)
+{
+	.parrafoencabezado
+	{
+		font-size: 120%;
+		margin-top: 5vh;
+	}
+	.encabezado
+	{
+		height: 350px;
+	}
+	.btnencabezado
+	{
+		font-size: 100%;
+		margin-top: 0 !important;
+	}
+	.mybtn
+	{
+		height: 35px;
+		padding: 0;
+	}
+	.brand-logo
+	{
+		font-size: 150% !important;
+	}
+	.titleagenda
+	{
+		font-size: 150%;
+	}
+	.enlaces
+	{
+		text-align: center;
+	}
+	.title
+	{
+		font-size: 180%;
+	}
+	.pnlpreparación
+	{
+		max-height: 100%;
+	}
+	.imgrecetamodal
+	{
+		height: 250px;
+	}
+	.maincontacto
+	{
+		height: 650px;
+	}
+	.titletestimoniales
+	{
+		font-size: 150%;
+	}
+	.testimoniales
+	{
+		height: 800px;
+	}
+	.pnlmyslide
+	{
+		width: 95%;
+	}
+	.parrafoemojis
+	{
+		text-align: left;
+	}
+	.ulespecificacionesup
+	{
+		margin-bottom: 0px;
+	}
+	.ulespecificacionesdown
+	{
+		margin-top: 0px;
+	}
+	.logoheadermin
+	{
+		width: 200px;
+		top: -2vh;
+	}
+	.pnlespcificaciones
+	{
+		min-height: 250px;
+	}
+	.serviciopnlmv
+	{
+		margin-top: 7vh;
+	}
+	.titlepoppup {
+    	font-size: 150%;
+	}
+	.titleasesoria {
+	    font-size: 130% !important;
+	}
+	.logofooter
+	{
+		width: 50%;
+	}
+	.flipbook-viewport-mobil .flipbookmobil{
+		width:90vw;
+		height:100vh
+		left: -5vw;
+	}
+
+	.flipbook-viewport-mobil .page{
+		width:90vw;
+		height:100vh;
+	}
+	.left
+	{
+		display: none;
+	}
+	.right
+	{
+		display: none;
+	}
+}
+@media (max-width: 450px)
+{
+	.encabezado
+	{
+		height: 350px;
+	}
+	.parrafoencabezado
+	{
+		margin-top: 1vh;
+	}
+	.parrafotest
+	{
+		font-size: 100%;
+	}
+	.pnlespcificaciones
+	{
+		min-height: 360px;
+	}
+}
+@media (max-width: 400px)
+{
+	.brand-logo
+	{
+		font-size: 120% !important;
+	}
+	.imgacerca
+	{
+		height: 350px;
+	}
+}
+@media (max-width: 310px)
+{
+	.brand-logo
+	{
+		font-size: 110% !important;
+	}
+}
